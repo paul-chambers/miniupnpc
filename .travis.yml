@@ -25,11 +25,9 @@ sudo: false
 dist: xenial
 
 env:
-  - 'PROJECT=minissdpd'
   - 'PROJECT=miniupnpc'
   - 'PROJECT=miniupnpc-async'
   - 'PROJECT=miniupnpc-libevent'
-  - 'PROJECT=miniupnpd'
 
 matrix:
   exclude:
